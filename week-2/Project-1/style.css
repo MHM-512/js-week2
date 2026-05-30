@@ -1,0 +1,112 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    background-color: #413c3c;
+
+}
+
+.box1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-items: center;
+}
+
+.again-btn {
+    width: 100px;
+    height: 60px;
+    border: none;
+    border-radius: 10%;
+    margin-top: 15px;
+    margin-left: 15px;
+    background-color: #504f4fc1;
+    font-size: 24px;
+  
+}
+.again-btn:hover{
+    border: 4px solid #4c4848;
+}
+
+.between {
+    margin-right: 15px;
+    /* margin-top: 15px; */
+    font-size: 32px;
+
+}
+
+.box2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 52px;
+}
+
+.Number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    font-size: 32px;
+    width: 150px;
+    height: 150px;
+    background-color: #484444;
+    
+    margin-bottom: 25px;
+}
+
+.box5 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box3 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.Guess-input {
+    width: 200pX;
+    height: 100PX;
+    border: none;
+    background-color: #484444;
+    border-radius: 10%;
+    font-size: 42px;
+    text-align: center;
+}
+
+.Gues {}
+
+.btn-check {
+    font-size: 32px;
+    width: 150px;
+    height: 60px;
+    border: none;
+    border-radius: 10%;
+    margin-top: 15px;
+    margin-left: 15px;
+    background-color: #484444;
+}
+.btn-check:hover{
+    border: 5px solid #4c4848;
+}
+.massage {
+    font-size: 32px;
+}
+
+.label-score {
+    font-size: 32px;
+}
+
+.score {}
+
+.label-highscore {
+    font-size: 32px;
+}
+
+.Highscore {}
